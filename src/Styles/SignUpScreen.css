@@ -1,0 +1,59 @@
+.signUpScreen {
+  max-width: 300px;
+  padding: 70px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.signUpScreen > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signUpScreen > form > h1 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.signUpScreen__gray {
+  color: gray;
+}
+
+.signUpScreen__link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signUpScreen > form > h4 {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.signUpScreen > form > input {
+  margin-bottom: 14px;
+  outline-width: 0;
+  height: 40px;
+  border-radius: var(--five-pixels, 5px);
+  -webkit-border-radius: var(--five-pixels, 5px);
+  -moz-border-radius: var(--five-pixels, 5px);
+  -ms-border-radius: var(--five-pixels, 5px);
+  -o-border-radius: var(--five-pixels, 5px);
+  border: none;
+  padding: 5px 15px;
+}
+
+.signUpScreen > form > button {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: var(--five-pixels, 5px);
+  -webkit-border-radius: var(--five-pixels, 5px);
+  -moz-border-radius: var(--five-pixels, 5px);
+  -ms-border-radius: var(--five-pixels, 5px);
+  -o-border-radius: var(--five-pixels, 5px);
+  background-color: var(--netflix-red, red);
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}

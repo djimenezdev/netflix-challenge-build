@@ -1,0 +1,59 @@
+.planScreen__plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.planScreen__plan:hover {
+  opacity: 1;
+}
+
+.planScreen__plan > button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--netflix-red, red);
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.planScreen__plan--disabled > button {
+  background-color: gray !important;
+}
+
+.planScreen__trial,
+.planScreen__manage {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.planScreen__trial > h3,
+.planScreen__manage > h3 {
+  border-bottom: 1px solid #282c2d;
+  padding-bottom: 10px;
+}
+
+.planScreen__trial > div,
+.planScreen__manage > div {
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.planScreen__trial > div > button,
+.planScreen__manage > div > button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--netflix-red, red);
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: 15vw;
+}

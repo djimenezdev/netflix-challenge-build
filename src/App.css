@@ -1,0 +1,8 @@
+:root {
+  --five-pixels: 5px;
+  --netflix-red: #e50914;
+}
+
+.app {
+  background-color: #111;
+}
